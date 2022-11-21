@@ -14,8 +14,8 @@ async def filterJoke(request):
 		jsonResponse = web.json_response({
 			"data": {
 				"joke": {
-					"setup": "What do you give a sick lemon?",
-					"punchline": "Lemonaid."
+					"setup": "What do you give a sick lemon?", # ovo nisam mogao zamijeniti prijednostima jer nisam mogao testirati
+					"punchline": "Lemonaid." # ovo nisam mogao zamijeniti prijednostima jer nisam mogao testirati
 				}
 			}
 		}, status = 200)
